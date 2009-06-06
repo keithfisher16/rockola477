@@ -1,4 +1,5 @@
 #summary How to control the jukebox mechanism from the logic board.
+#labels Featured
 
 = Testing Mechanism Control =
 
@@ -22,3 +23,5 @@ Count pulses on pin 4 until the correct record is reached.
 Pulse pin 19.
 
 If pin 1 is signalling A (I forget whether this is high or low) and you wanted B then you just go round again.
+
+Check out the PicHardware page to see how this is controlled from the PIC.
