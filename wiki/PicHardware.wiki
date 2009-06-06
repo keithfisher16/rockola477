@@ -7,7 +7,7 @@ I will try to draw a schematic of this at some point. But for now here is a desc
 
 My board was constructed in the same form factor as the original board. I removed the connectors from the original board and arranged the new board so that they were in the same places as the old board so the wiring would reach. My unit has no coin validation unit so I used the wiring loom that would usually connect to that to connect to the logic board. 
 
-= Circuit Details =
+== Circuit Details ==
 
 Power comes from the white connector on the right hand side of the board. Black is ground, red should be 9.6V so that needs converting to 5V for the PIC.
 
@@ -60,6 +60,6 @@ PORTE,
 
 The circuit could easily be built without a PCB. The PCB just makes it look cooler and allows re-use of the connectors to keep the wiring nice and easy.
 
-= Modifications To Other Circuit Boards =
+== Modifications To Other Circuit Boards ==
 
 I half remember that I got the polarity of the keyboard multiplex the wrong way round and had to remove some diodes from the Keyboard PCB. I will verify this.
